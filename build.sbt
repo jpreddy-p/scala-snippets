@@ -1,11 +1,11 @@
-name := """myscala"""
+name := """scala-snippets"""
 
 version := "1.0"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.12.12"
 
 // set the main class for 'sbt run'
-mainClass in (Compile, run) := Some("com.jpreddy.scala.ScalaCookBookStringsDriver")
+mainClass in (Compile, run) := Some("com.jpreddy.scala.basics.MasterMain")
 
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.1.3" % "test"
 
